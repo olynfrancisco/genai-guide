@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GenAI Guide — FAQs</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;background:#ffffff;color:#111;opacity:0;animation:fadeIn 1s ease forwards}
+    @keyframes fadeIn{to{opacity:1}}
+
+    header{padding:22px 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e6e6e6;animation:slideDown 0.7s ease;background:#fff;position:sticky;top:0;z-index:10}
+    @keyframes slideDown{from{transform:translateY(-20px);opacity:0}to{transform:translateY(0);opacity:1}}
+
+    nav a{margin-left:18px;text-decoration:none;color:#0056a6;font-weight:500;font-size:16px;transition:0.3s}
+    nav a:hover{color:#003f7a}
+
+    main{max-width:900px;margin:50px auto;padding:0 16px;line-height:1.7}
+    h1{text-align:center;font-size:40px;margin-bottom:40px;animation:fadeUp 0.8s ease}
+    @keyframes fadeUp{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}
+
+    details{background:#fafafa;border:1px solid #e6e6e6;border-radius:14px;padding:20px;margin-bottom:18px;transition:0.3s;opacity:0;animation:fadeUp 1s ease forwards}
+    details:hover{transform:translateY(-4px);box-shadow:0 6px 14px rgba(0,0,0,0.08)}
+
+    summary{font-size:20px;font-weight:600;cursor:pointer;color:#0056a6;outline:none}
+    summary::marker{color:#003f7a}
+
+    details p{margin-top:12px;font-size:16px;color:#444;line-height:1.6}
+
+    footer{text-align:center;margin-top:60px;padding:40px;color:#555;border-top:1px solid #e6e6e6;font-size:15px}
+  </style>
+</head>
+<body>
+  <header>
+    <strong style="font-size:22px">GenAI Guide</strong>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="faq.html">FAQs</a>
+      <a href="ethics.html">Ethics</a>
+      <a href="article.html">Analogy</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Frequently Asked Questions</h1>
+
+    <details>
+      <summary>What is Generative AI?</summary>
+      <p>Generative Artificial Intelligence refers to AI models capable of producing new content such as text, images, videos, music, or code based on patterns learned from large datasets. It does not "think" like a human but predicts the most appropriate output based on its training.</p>
+    </details>
+
+    <details>
+      <summary>How does Generative AI work?</summary>
+      <p>GenAI systems analyze massive datasets using deep learning and neural networks to identify patterns and relationships. Once trained, the model generates new content by predicting the next probable sequence of information.</p>
+    </details>
+
+    <details>
+      <summary>What are common examples of GenAI tools?</summary>
+      <p>Popular tools include ChatGPT, Google Gemini, Midjourney, DALL·E, Claude, GitHub Copilot, character AI models, image generators, and text-to-speech platforms.</p>
+    </details>
+
+    <details>
+      <summary>What are the strengths of Generative AI?</summary>
+      <p>GenAI supports creative content generation, automates repetitive tasks, summarizes information, assists with programming, analyzes data, and increases productivity across education, research, and business.</p>
+    </details>
+
+    <details>
+      <summary>What are its limitations or risks?</summary>
+      <p>Risks include factual inaccuracies, biased outputs, hallucinated information, privacy concerns, inconsistency, and dependency issues. Human oversight is essential to evaluate AI-generated content.</p>
+    </details>
+
+    <details>
+      <summary>How should users verify AI-generated information?</summary>
+      <p>Cross-check outputs with credible sources, verify citations, confirm technical accuracy, and apply human judgment before using AI-generated content in academic or professional contexts.</p>
+    </details>
+
+  </main>
+
+  <footer>
+    © <span id="faqYr"></span> GenAI Guide — All Rights Reserved
+  </footer>
+
+  <script>document.getElementById('faqYr').textContent = new Date().getFullYear();</script>
+</body>
+</html>

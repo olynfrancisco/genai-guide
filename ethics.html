@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GenAI Guide — Ethical Use of AI</title>
+
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;background:#ffffff;color:#111;opacity:0;animation:fadeIn 1s ease forwards}
+    @keyframes fadeIn{to{opacity:1}}
+
+    header{padding:22px 40px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e6e6e6;background:#fff;position:sticky;top:0;z-index:10;animation:slideDown 0.7s ease}
+    @keyframes slideDown{from{transform:translateY(-20px);opacity:0}to{transform:translateY(0);opacity:1}}
+
+    nav a{margin-left:18px;text-decoration:none;color:#0056a6;font-weight:500;font-size:16px;transition:0.3s}
+    nav a:hover{color:#003f7a}
+
+    main{max-width:900px;margin:50px auto;padding:0 16px;line-height:1.75}
+    h1{text-align:center;font-size:42px;margin-bottom:35px;animation:fadeUp 0.9s ease}
+    h2{margin-top:40px;color:#0056a6;font-size:26px;animation:fadeUp 1.1s ease}
+
+    @keyframes fadeUp{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}
+
+    .section-card{background:#fafafa;border:1px solid #e6e6e6;border-radius:14px;padding:26px;margin-top:20px;transition:0.3s;animation:fadeUp 1s ease forwards}
+    .section-card:hover{transform:translateY(-4px);box-shadow:0 6px 16px rgba(0,0,0,0.08)}
+
+    p{font-size:17px;color:#444;margin:14px 0}
+    ul{margin-top:10px;margin-left:22px;color:#444}
+    li{margin:8px 0}
+
+    footer{text-align:center;margin-top:70px;padding:40px;color:#555;border-top:1px solid #e6e6e6;font-size:15px}
+  </style>
+</head>
+
+<body>
+  <header>
+    <strong style="font-size:22px">GenAI Guide</strong>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="faq.html">FAQs</a>
+      <a href="ethics.html">Ethics</a>
+      <a href="article.html">Analogy</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Ethical Use of Artificial Intelligence</h1>
+
+    <section class="section-card">
+      <h2>Responsible Use in Academic Settings</h2>
+      <p>AI tools can support learning and productivity, but students must use them responsibly. AI should enhance understanding—not replace critical thinking or independent work.</p>
+      <ul>
+        <li>Use AI as a study companion, not a replacement for original work.</li>
+        <li>Always credit AI-assisted contributions if required by your institution.</li>
+        <li>Ensure that AI-generated explanations are verified with credible academic sources.</li>
+      </ul>
+    </section>
+
+    <section class="section-card">
+      <h2>Avoiding Plagiarism and Misuse</h2>
+      <p>Improper use of AI-generated content can lead to academic dishonesty. Students and researchers must ensure that work submitted reflects personal understanding and original thought.</p>
+      <ul>
+        <li>Do not submit AI-generated output as your own writing.</li>
+        <li>Use AI drafts as inspiration or guidance, not final submissions.</li>
+        <li>Follow institutional policies on AI usage.</li>
+      </ul>
+    </section>
+
+    <section class="section-card">
+      <h2>Accuracy and Verification</h2>
+      <p>AI-generated responses may be incomplete, outdated, or incorrect. Fact-checking and critical evaluation are essential when using AI in research or decision-making.</p>
+      <ul>
+        <li>Verify statistics, citations, and claims using trusted sources.</li>
+        <li>Use domain experts or textbooks to confirm sensitive or technical information.</li>
+        <li>Do not rely solely on AI for academic or professional decision-making.</li>
+      </ul>
+    </section>
+
+    <section class="section-card">
+      <h2>Bias and Fairness</h2>
+      <p>AI models may generate biased content due to the data they were trained on. Ethical users must recognize and correct bias when it appears.</p>
+      <ul>
+        <li>Be aware that AI may unintentionally reinforce stereotypes.</li>
+        <li>Cross-check outputs for fairness and inclusivity.</li>
+        <li>Avoid using AI to create misleading or discriminatory content.</li>
+      </ul>
+    </section>
+
+    <section class="section-card">
+      <h2>Recommended Guidelines for AI Use</h2>
+      <p>Users should follow these principles to ensure ethical and responsible use of AI tools:</p>
+      <ul>
+        <li>Use AI with transparency and integrity.</li>
+        <li>Verify all generated information before applying it.</li>
+        <li>Maintain authorship and originality of your work.</li>
+        <li>Respect privacy and avoid sharing sensitive personal data.</li>
+        <li>Promote fairness and accuracy when using AI in communication or decision-making.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="ethYr"></span> GenAI Guide — All Rights Reserved
+  </footer>
+
+  <script>document.getElementById('ethYr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
